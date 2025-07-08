@@ -3,7 +3,7 @@ toor
 raspberry
 dietpi
 test
-ssh
+7878
 sshkey
 msfadmin123
 uploader
