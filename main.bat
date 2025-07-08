@@ -1,8 +1,8 @@
 @echo off
-title SMB Bruteforce - by Ebola Man
+title SMB Bruteforce - by PVXNN
 color A
 echo.
-set /p ip="Enter IP Address: "
+set /p ip="Enter WEBSITE URL: "
 set /p user="Enter Username: "
 set /p wordlist="Enter Password List: "
 
